@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>day15</title>
+    <style>
+      body {
+        font-family:"Times New Roman",Sans-Serif;
+        background-color: #CADABA;
+        color:black;
+        line-height: 1.6;
+        margin: 0;
+      }
+      header {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 0;
+      }
+      h2 {
+        font-size: 18px;
+        margin-top: 0;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 0;
+        padding: 20px;
+        background-color: #ACB78E;
+      }
+      nav button {
+        border: none;
+        width: 100%;
+        border-radius: 8px;
+        background-color: #ACB78E;
+        color: white;
+        transition: 0.3s;
+        padding: 12px;
+      }
+      nav button:hover {
+        cursor: pointer;
+        color: #CADABA;
+      }
+      main {
+        display: flex;
+        
+      }
+      article {
+        flex: 4;
+        line-height: 1.7;
+        padding: 15px;
+      }
+      aside {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 20px;
+      }
+      aside button {
+        border: none;
+        width: 120px;
+        border-radius: 10px;
+        background-color: #ACB78E;
+        padding: 20px;
+        transition: 0.3s;
+      }
+      aside button:hover {
+        cursor: pointer;
+        color: #CADABA;
+        transform: translateX(-5px);
+      }
+      footer {
+        text-align: center;
+        background-color: #ACB78E;
+        font-size: 12px;
+        padding:16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><strong>PIXELNEST</strong></header>
+    <h2>(Front End Developer)</h2>
+    <nav>
+      <button>Home</button>
+      <button>About</button>
+      <button>Skills</button>
+      <button>Projects</button>
+      <button>Reviews</button>
+    </nav>
+    <main>
+      <article>
+       <p>"I am a passionate Frontend Developer dedicated to building visually stunning and highly functional websites. I focus on creating clean code and seamless user experiences that bring ideas to life."</p>
+      </article>
+      <aside>
+        <button>About</button>
+        <button>Designs</button>
+        <button>Prize</button>
+        <button>Content me!</button>
+      </aside>
+    </main>
+    <footer>© PIXELNEST 2026</footer>
+  </body>
+</html>
